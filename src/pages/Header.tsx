@@ -1,3 +1,4 @@
+/* eslint-disable no-script-url */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react'
 import { AlignLeft, ArrowRight, ArrowLeft } from 'react-feather'
@@ -202,12 +203,12 @@ function Header() {
 
               <div className="dropdown nxl-h-item">
                 <a href="javascript:void(0);" data-bs-toggle="dropdown" role="button" data-bs-auto-close="outside">
-                  <img src="assets/images/vendors/4.png" style={{width: '40px', height: '40px'}} alt="user-image" className="img-fluid user-avtar me-0" />
+                  <img src="assets/images/vendors/4.png" style={{ width: '40px', height: '40px' }} alt="user-image" className="img-fluid user-avtar me-0" />
                 </a>
                 <div className="dropdown-menu dropdown-menu-end nxl-h-dropdown nxl-user-dropdown">
                   <div className="dropdown-header">
                     <div className="d-flex align-items-center">
-                      <img src="assets/images/vendors/4.png" style={{width: '40px', height: '40px'}} alt="user-image" className="img-fluid user-avtar" />
+                      <img src="assets/images/vendors/4.png" style={{ width: '40px', height: '40px' }} alt="user-image" className="img-fluid user-avtar" />
                       <div>
                         <h6 className="text-dark mb-0">
                           Chicken Republic <span className="badge bg-soft-danger text-danger ms-1">Fast Food</span>
@@ -216,9 +217,43 @@ function Header() {
                       </div>
                     </div>
                   </div>
+                  <a href="javascript:void(0);" className="dropdown-item" data-bs-toggle="dropdown">
+                    <span className="hstack">
+                      <i
+                        className="wd-10 ht-10 border border-2 border-gray-1 bg-success rounded-circle me-2"></i>
+                      <span>Active</span>
+                    </span>
+                    <i className="feather-chevron-right ms-auto me-0"></i>
+                  </a>
+                  <div className="dropdown-menu">
+
+                    <a href="javascript:void(0);" className="dropdown-item">
+                      <span className="hstack">
+                        <i
+                          className="wd-10 ht-10 border border-2 border-gray-1 bg-success rounded-circle me-2"></i>
+                        <span>Active</span>
+                      </span>
+                    </a>
+                    <a href="javascript:void(0);" className="dropdown-item">
+                      <span className="hstack">
+                        <i
+                          className="wd-10 ht-10 border border-2 border-gray-1 bg-danger rounded-circle me-2"></i>
+                        <span>Inactive</span>
+                      </span>
+                    </a>
+                    <a href="javascript:void(0);" className="dropdown-item">
+                      <span className="hstack">
+                        <i
+                          className="wd-10 ht-10 border border-2 border-gray-1 bg-warning rounded-circle me-2"></i>
+                        <span>Disabled</span>
+                      </span>
+                    </a>
+
+                  </div>
+                  <div className="dropdown-divider"></div>
                   <a href="javascript:void(0);" className="dropdown-item">
                     <i className="feather-user"></i>
-                    <span>Admin Details</span>
+                    <span>Store Details</span>
                   </a>
                   <a href="javascript:void(0);" className="dropdown-item">
                     <i className="feather-settings"></i>

@@ -19,7 +19,7 @@ function Dashboard() {
                   <h5 className="m-b-10">Dashboard</h5>
                 </div>
                 <ul className="breadcrumb">
-                  <li className="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li className="breadcrumb-item"><a href="/">Home</a></li>
                   <li className="breadcrumb-item">Dashboard</li>
                 </ul>
               </div>
@@ -138,7 +138,7 @@ function Dashboard() {
                         <span className="text-muted">Revenue</span>
                       </div>
                       <div className="avatar-text avatar-lg bg-warning text-white rounded">
-                        <i className="feather-credit-card"></i>
+                        <span style={{fontSize: '20px'}}>&#8358;</span>
                       </div>
                     </div>
                   </div>

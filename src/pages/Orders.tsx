@@ -21,7 +21,7 @@ function Orders() {
                   <h5 className="m-b-10">Orders</h5>
                 </div>
                 <ul className="breadcrumb">
-                  <li className="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li className="breadcrumb-item"><a href="/">Home</a></li>
                   <li className="breadcrumb-item">Orders</li>
                 </ul>
               </div>
