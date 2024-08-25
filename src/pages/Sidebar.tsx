@@ -40,7 +40,7 @@ function Sidebar() {
                 <label>Storefront Panels</label>
               </li>
               <li className="nxl-item nxl-hasmenu">
-                <Link to="/dashboard" className={`nxl-link ${isActive('/dashboard')}`}>
+                <Link to="/" className={`nxl-link ${isActive('/')}`}>
                   <span className="nxl-micon"><FaHome /></span>
                   <span className="nxl-mtext">Dashboard</span>
                 </Link>
@@ -117,7 +117,7 @@ function Sidebar() {
                 <label>Logout</label>
               </li>
               <li className="nxl-item nxl-hasmenu">
-                <Link to="/logout" className={`nxl-link ${isActive('/logout')}`}>
+                <Link to="/login" className={`nxl-link ${isActive('/login')}`}>
                   <span className="nxl-micon"><FaSignOutAlt /></span>
                   <span className="nxl-mtext">Sign Out</span>
                 </Link>
