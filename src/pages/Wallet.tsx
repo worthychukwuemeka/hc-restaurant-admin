@@ -259,7 +259,7 @@ function Wallet() {
                               </div>
                             </td>
                             <td>
-                              <a href="transaction-view.html" className="fw-bold">
+                              <a href="#" className="fw-bold">
                                 #321456
                               </a>
                             </td>
@@ -267,7 +267,7 @@ function Wallet() {
                               <a href="javascript:void(0)" className="hstack gap-3">
                                 <div className="avatar-image avatar-md">
                                   <img
-                                    src="assets/images/avatar/1.png"
+                                    src="assets/images/avatar/14.png"
                                     alt="User Avatar"
                                     className="img-fluid"
                                   />
@@ -281,7 +281,7 @@ function Wallet() {
                               </a>
                             </td>
                             <td className="fw-bold text-dark">₦2,400</td>
-                            <td>2023-04-25, 03:42PM</td>
+                            <td>2024-04-25, 03:42PM</td>
                             <td>
                               <a href="javascript:void(0);">#SDEG4589SE1E</a>
                             </td>
@@ -290,7 +290,7 @@ function Wallet() {
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="transaction-view.html" className="avatar-text avatar-md">
+                                <a href="#" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -346,7 +346,7 @@ function Wallet() {
                               </div>
                             </td>
                             <td>
-                              <a href="transaction-view.html" className="fw-bold">
+                              <a href="#" className="fw-bold">
                                 #487329
                               </a>
                             </td>
@@ -354,7 +354,7 @@ function Wallet() {
                               <a href="javascript:void(0)" className="hstack gap-3">
                                 <div className="avatar-image avatar-md">
                                   <img
-                                    src="assets/images/avatar/13.jpeg"
+                                    src="assets/images/avatar/2.png"
                                     alt="User Avatar"
                                     className="img-fluid"
                                   />
@@ -368,16 +368,16 @@ function Wallet() {
                               </a>
                             </td>
                             <td className="fw-bold text-dark">₦1,000</td>
-                            <td>2023-04-25, 03:42PM</td>
+                            <td>2024-04-25, 03:42PM</td>
                             <td>
                               <a href="javascript:void(0);">#HUP4589NGX1E</a>
                             </td>
                             <td>
-                              <div className="badge bg-soft-success text-success">Completed</div>
+                              <div className="badge bg-soft-warning text-warning">Pending</div>
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="transaction-view.html" className="avatar-text avatar-md">
+                                <a href="#" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -416,7 +416,6 @@ function Wallet() {
                             </td>
                           </tr>
 
-
                           {/* Item 3 */}
                           <tr className="single-item">
                             <td>
@@ -425,45 +424,45 @@ function Wallet() {
                                   <input
                                     type="checkbox"
                                     className="custom-control-input checkbox"
-                                    id="checkBox_1"
+                                    id="checkBox_2"
                                   />
-                                  <label className="custom-control-label" htmlFor="checkBox_1"></label>
+                                  <label className="custom-control-label" htmlFor="checkBox_2"></label>
                                 </div>
                               </div>
                             </td>
                             <td>
-                              <a href="transaction-view.html" className="fw-bold">
-                                #321456
+                              <a href="#" className="fw-bold">
+                                #854762
                               </a>
                             </td>
                             <td>
                               <a href="javascript:void(0)" className="hstack gap-3">
                                 <div className="avatar-image avatar-md">
                                   <img
-                                    src="assets/images/avatar/1.png"
+                                    src="assets/images/avatar/8.png"
                                     alt="User Avatar"
                                     className="img-fluid"
                                   />
                                 </div>
                                 <div>
-                                  <span className="text-truncate-1-line">Alexandra Della</span>
+                                  <span className="text-truncate-1-line">Tim Mujong</span>
                                   <small className="fs-12 fw-normal text-muted">
-                                    alex.della@outlook.com
+                                    tim.mujong@icloud.com
                                   </small>
                                 </div>
                               </a>
                             </td>
-                            <td className="fw-bold text-dark">₦2,400</td>
-                            <td>2023-04-25, 03:42PM</td>
+                            <td className="fw-bold text-dark">₦5,600</td>
+                            <td>2024-04-25, 03:42PM</td>
                             <td>
-                              <a href="javascript:void(0);">#SDEG4589SE1E</a>
+                              <a href="javascript:void(0);">#NXCG7532TY2Z</a>
                             </td>
                             <td>
                               <div className="badge bg-soft-success text-success">Completed</div>
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="transaction-view.html" className="avatar-text avatar-md">
+                                <a href="#" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -476,7 +475,6 @@ function Wallet() {
                                     <i className="feather feather-more-horizontal"></i>
                                   </a>
                                   <ul className="dropdown-menu">
-
                                     <li>
                                       <a className="dropdown-item printBTN" href="javascript:void(0)">
                                         <i className="feather feather-printer me-3"></i>
@@ -497,7 +495,6 @@ function Wallet() {
                                       </a>
                                     </li>
                                     <li className="dropdown-divider"></li>
-
                                   </ul>
                                 </div>
                               </div>
@@ -512,38 +509,38 @@ function Wallet() {
                                   <input
                                     type="checkbox"
                                     className="custom-control-input checkbox"
-                                    id="checkBox_1"
+                                    id="checkBox_2"
                                   />
-                                  <label className="custom-control-label" htmlFor="checkBox_1"></label>
+                                  <label className="custom-control-label" htmlFor="checkBox_2"></label>
                                 </div>
                               </div>
                             </td>
                             <td>
                               <a href="transaction-view.html" className="fw-bold">
-                                #321456
+                                #854763
                               </a>
                             </td>
                             <td>
                               <a href="javascript:void(0)" className="hstack gap-3">
                                 <div className="avatar-image avatar-md">
                                   <img
-                                    src="assets/images/avatar/1.png"
+                                    src="assets/images/avatar/10.png"
                                     alt="User Avatar"
                                     className="img-fluid"
                                   />
                                 </div>
                                 <div>
-                                  <span className="text-truncate-1-line">Alexandra Della</span>
+                                  <span className="text-truncate-1-line">Emeka Okoye</span>
                                   <small className="fs-12 fw-normal text-muted">
-                                    alex.della@outlook.com
+                                    emeka.okoye@gmail.com
                                   </small>
                                 </div>
                               </a>
                             </td>
-                            <td className="fw-bold text-dark">₦2,400</td>
-                            <td>2023-04-25, 03:42PM</td>
+                            <td className="fw-bold text-dark">₦5,800</td>
+                            <td>2024-04-25, 03:42PM</td>
                             <td>
-                              <a href="javascript:void(0);">#SDEG4589SE1E</a>
+                              <a href="javascript:void(0);">#NXTG8543AZ7P</a>
                             </td>
                             <td>
                               <div className="badge bg-soft-success text-success">Completed</div>
@@ -563,7 +560,6 @@ function Wallet() {
                                     <i className="feather feather-more-horizontal"></i>
                                   </a>
                                   <ul className="dropdown-menu">
-
                                     <li>
                                       <a className="dropdown-item printBTN" href="javascript:void(0)">
                                         <i className="feather feather-printer me-3"></i>
@@ -584,12 +580,12 @@ function Wallet() {
                                       </a>
                                     </li>
                                     <li className="dropdown-divider"></li>
-
                                   </ul>
                                 </div>
                               </div>
                             </td>
                           </tr>
+
 
                           {/* Item 5 */}
                           <tr className="single-item">
@@ -599,45 +595,45 @@ function Wallet() {
                                   <input
                                     type="checkbox"
                                     className="custom-control-input checkbox"
-                                    id="checkBox_1"
+                                    id="checkBox_3"
                                   />
-                                  <label className="custom-control-label" htmlFor="checkBox_1"></label>
+                                  <label className="custom-control-label" htmlFor="checkBox_3"></label>
                                 </div>
                               </div>
                             </td>
                             <td>
-                              <a href="transaction-view.html" className="fw-bold">
-                                #321456
+                              <a href="#" className="fw-bold">
+                                #789654
                               </a>
                             </td>
                             <td>
                               <a href="javascript:void(0)" className="hstack gap-3">
                                 <div className="avatar-image avatar-md">
                                   <img
-                                    src="assets/images/avatar/1.png"
+                                    src="assets/images/avatar/7.png"
                                     alt="User Avatar"
                                     className="img-fluid"
                                   />
                                 </div>
                                 <div>
-                                  <span className="text-truncate-1-line">Alexandra Della</span>
+                                  <span className="text-truncate-1-line">Grace Emeka</span>
                                   <small className="fs-12 fw-normal text-muted">
-                                    alex.della@outlook.com
+                                    graceemeka@outlook.com
                                   </small>
                                 </div>
                               </a>
                             </td>
-                            <td className="fw-bold text-dark">₦2,400</td>
-                            <td>2023-04-25, 03:42PM</td>
+                            <td className="fw-bold text-dark">₦3,500</td>
+                            <td>2024-05-18, 10:15AM</td>
                             <td>
-                              <a href="javascript:void(0);">#SDEG4589SE1E</a>
+                              <a href="javascript:void(0);">#RTYU8743KO2L</a>
                             </td>
                             <td>
-                              <div className="badge bg-soft-success text-success">Completed</div>
+                              <div className="badge bg-soft-danger text-danger">Reversed</div>
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="transaction-view.html" className="avatar-text avatar-md">
+                                <a href="#" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -650,7 +646,6 @@ function Wallet() {
                                     <i className="feather feather-more-horizontal"></i>
                                   </a>
                                   <ul className="dropdown-menu">
-
                                     <li>
                                       <a className="dropdown-item printBTN" href="javascript:void(0)">
                                         <i className="feather feather-printer me-3"></i>
@@ -671,7 +666,6 @@ function Wallet() {
                                       </a>
                                     </li>
                                     <li className="dropdown-divider"></li>
-
                                   </ul>
                                 </div>
                               </div>
@@ -686,45 +680,45 @@ function Wallet() {
                                   <input
                                     type="checkbox"
                                     className="custom-control-input checkbox"
-                                    id="checkBox_1"
+                                    id="checkBox_2"
                                   />
-                                  <label className="custom-control-label" htmlFor="checkBox_1"></label>
+                                  <label className="custom-control-label" htmlFor="checkBox_2"></label>
                                 </div>
                               </div>
                             </td>
                             <td>
-                              <a href="transaction-view.html" className="fw-bold">
-                                #321456
+                              <a href="#" className="fw-bold">
+                                #784512
                               </a>
                             </td>
                             <td>
                               <a href="javascript:void(0)" className="hstack gap-3">
                                 <div className="avatar-image avatar-md">
                                   <img
-                                    src="assets/images/avatar/1.png"
+                                    src="assets/images/avatar/6.png"
                                     alt="User Avatar"
                                     className="img-fluid"
                                   />
                                 </div>
                                 <div>
-                                  <span className="text-truncate-1-line">Alexandra Della</span>
+                                  <span className="text-truncate-1-line">Adanna Okeke</span>
                                   <small className="fs-12 fw-normal text-muted">
-                                    alex.della@outlook.com
+                                    adanna.okeke@example.com
                                   </small>
                                 </div>
                               </a>
                             </td>
-                            <td className="fw-bold text-dark">₦2,400</td>
-                            <td>2023-04-25, 03:42PM</td>
+                            <td className="fw-bold text-dark">₦3,800</td>
+                            <td>2024-05-10, 02:15PM</td>
                             <td>
-                              <a href="javascript:void(0);">#SDEG4589SE1E</a>
+                              <a href="javascript:void(0);">#DFTG4598HY6B</a>
                             </td>
                             <td>
                               <div className="badge bg-soft-success text-success">Completed</div>
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="transaction-view.html" className="avatar-text avatar-md">
+                                <a href="#" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -737,7 +731,6 @@ function Wallet() {
                                     <i className="feather feather-more-horizontal"></i>
                                   </a>
                                   <ul className="dropdown-menu">
-
                                     <li>
                                       <a className="dropdown-item printBTN" href="javascript:void(0)">
                                         <i className="feather feather-printer me-3"></i>
@@ -758,12 +751,12 @@ function Wallet() {
                                       </a>
                                     </li>
                                     <li className="dropdown-divider"></li>
-
                                   </ul>
                                 </div>
                               </div>
                             </td>
                           </tr>
+
 
                           {/* Item 7 */}
                           <tr className="single-item">
@@ -773,45 +766,43 @@ function Wallet() {
                                   <input
                                     type="checkbox"
                                     className="custom-control-input checkbox"
-                                    id="checkBox_1"
+                                    id="checkBox_7"
                                   />
-                                  <label className="custom-control-label" htmlFor="checkBox_1"></label>
+                                  <label className="custom-control-label" htmlFor="checkBox_7"></label>
                                 </div>
                               </div>
                             </td>
                             <td>
-                              <a href="transaction-view.html" className="fw-bold">
-                                #321456
+                              <a href="#" className="fw-bold">
+                                #325678
                               </a>
                             </td>
                             <td>
                               <a href="javascript:void(0)" className="hstack gap-3">
                                 <div className="avatar-image avatar-md">
                                   <img
-                                    src="assets/images/avatar/1.png"
+                                    src="assets/images/avatar/13.png"
                                     alt="User Avatar"
                                     className="img-fluid"
                                   />
                                 </div>
                                 <div>
-                                  <span className="text-truncate-1-line">Alexandra Della</span>
-                                  <small className="fs-12 fw-normal text-muted">
-                                    alex.della@outlook.com
-                                  </small>
+                                  <span className="text-truncate-1-line">Emeka Udo</span>
+                                  <small className="fs-12 fw-normal text-muted">emeka.udo@mail.com</small>
                                 </div>
                               </a>
                             </td>
-                            <td className="fw-bold text-dark">₦2,400</td>
-                            <td>2023-04-25, 03:42PM</td>
+                            <td className="fw-bold text-dark">₦3,000</td>
+                            <td>2024-05-01, 11:30AM</td>
                             <td>
-                              <a href="javascript:void(0);">#SDEG4589SE1E</a>
+                              <a href="javascript:void(0);">#XWER1234UY7</a>
                             </td>
                             <td>
-                              <div className="badge bg-soft-success text-success">Completed</div>
+                              <div className="badge bg-soft-warning text-warning">Processing</div>
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="transaction-view.html" className="avatar-text avatar-md">
+                                <a href="#" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -824,7 +815,6 @@ function Wallet() {
                                     <i className="feather feather-more-horizontal"></i>
                                   </a>
                                   <ul className="dropdown-menu">
-
                                     <li>
                                       <a className="dropdown-item printBTN" href="javascript:void(0)">
                                         <i className="feather feather-printer me-3"></i>
@@ -845,7 +835,6 @@ function Wallet() {
                                       </a>
                                     </li>
                                     <li className="dropdown-divider"></li>
-
                                   </ul>
                                 </div>
                               </div>
@@ -860,45 +849,43 @@ function Wallet() {
                                   <input
                                     type="checkbox"
                                     className="custom-control-input checkbox"
-                                    id="checkBox_1"
+                                    id="checkBox_8"
                                   />
-                                  <label className="custom-control-label" htmlFor="checkBox_1"></label>
+                                  <label className="custom-control-label" htmlFor="checkBox_8"></label>
                                 </div>
                               </div>
                             </td>
                             <td>
-                              <a href="transaction-view.html" className="fw-bold">
-                                #321456
+                              <a href="#" className="fw-bold">
+                                #328456
                               </a>
                             </td>
                             <td>
                               <a href="javascript:void(0)" className="hstack gap-3">
                                 <div className="avatar-image avatar-md">
                                   <img
-                                    src="assets/images/avatar/1.png"
+                                    src="assets/images/avatar/12.png"
                                     alt="User Avatar"
                                     className="img-fluid"
                                   />
                                 </div>
                                 <div>
-                                  <span className="text-truncate-1-line">Alexandra Della</span>
-                                  <small className="fs-12 fw-normal text-muted">
-                                    alex.della@outlook.com
-                                  </small>
+                                  <span className="text-truncate-1-line">Ngozi Okeke</span>
+                                  <small className="fs-12 fw-normal text-muted">ngozi.okeke@mail.com</small>
                                 </div>
                               </a>
                             </td>
-                            <td className="fw-bold text-dark">₦2,400</td>
-                            <td>2023-04-25, 03:42PM</td>
+                            <td className="fw-bold text-dark">₦1,800</td>
+                            <td>2024-05-02, 02:15PM</td>
                             <td>
-                              <a href="javascript:void(0);">#SDEG4589SE1E</a>
+                              <a href="javascript:void(0);">#ZXYW1234LK9</a>
                             </td>
                             <td>
-                              <div className="badge bg-soft-success text-success">Completed</div>
+                              <div className="badge bg-soft-danger text-danger">Cancelled</div>
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="transaction-view.html" className="avatar-text avatar-md">
+                                <a href="#" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -911,7 +898,6 @@ function Wallet() {
                                     <i className="feather feather-more-horizontal"></i>
                                   </a>
                                   <ul className="dropdown-menu">
-
                                     <li>
                                       <a className="dropdown-item printBTN" href="javascript:void(0)">
                                         <i className="feather feather-printer me-3"></i>
@@ -932,7 +918,6 @@ function Wallet() {
                                       </a>
                                     </li>
                                     <li className="dropdown-divider"></li>
-
                                   </ul>
                                 </div>
                               </div>
@@ -947,45 +932,43 @@ function Wallet() {
                                   <input
                                     type="checkbox"
                                     className="custom-control-input checkbox"
-                                    id="checkBox_1"
+                                    id="checkBox_9"
                                   />
-                                  <label className="custom-control-label" htmlFor="checkBox_1"></label>
+                                  <label className="custom-control-label" htmlFor="checkBox_9"></label>
                                 </div>
                               </div>
                             </td>
                             <td>
-                              <a href="transaction-view.html" className="fw-bold">
-                                #321456
+                              <a href="#" className="fw-bold">
+                                #324789
                               </a>
                             </td>
                             <td>
                               <a href="javascript:void(0)" className="hstack gap-3">
                                 <div className="avatar-image avatar-md">
                                   <img
-                                    src="assets/images/avatar/1.png"
+                                    src="assets/images/avatar/15.png"
                                     alt="User Avatar"
                                     className="img-fluid"
                                   />
                                 </div>
                                 <div>
-                                  <span className="text-truncate-1-line">Alexandra Della</span>
-                                  <small className="fs-12 fw-normal text-muted">
-                                    alex.della@outlook.com
-                                  </small>
+                                  <span className="text-truncate-1-line">Ifeanyi Chukwu</span>
+                                  <small className="fs-12 fw-normal text-muted">ifeanyi.chukwu@mail.com</small>
                                 </div>
                               </a>
                             </td>
-                            <td className="fw-bold text-dark">₦2,400</td>
-                            <td>2023-04-25, 03:42PM</td>
+                            <td className="fw-bold text-dark">₦4,200</td>
+                            <td>2024-05-03, 05:00PM</td>
                             <td>
-                              <a href="javascript:void(0);">#SDEG4589SE1E</a>
+                              <a href="javascript:void(0);">#YXZT9876MN4</a>
                             </td>
                             <td>
-                              <div className="badge bg-soft-success text-success">Completed</div>
+                              <div className="badge bg-soft-warning text-warning">Processing</div>
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="transaction-view.html" className="avatar-text avatar-md">
+                                <a href="#" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -998,7 +981,6 @@ function Wallet() {
                                     <i className="feather feather-more-horizontal"></i>
                                   </a>
                                   <ul className="dropdown-menu">
-
                                     <li>
                                       <a className="dropdown-item printBTN" href="javascript:void(0)">
                                         <i className="feather feather-printer me-3"></i>
@@ -1019,7 +1001,6 @@ function Wallet() {
                                       </a>
                                     </li>
                                     <li className="dropdown-divider"></li>
-
                                   </ul>
                                 </div>
                               </div>
@@ -1034,45 +1015,43 @@ function Wallet() {
                                   <input
                                     type="checkbox"
                                     className="custom-control-input checkbox"
-                                    id="checkBox_1"
+                                    id="checkBox_10"
                                   />
-                                  <label className="custom-control-label" htmlFor="checkBox_1"></label>
+                                  <label className="custom-control-label" htmlFor="checkBox_10"></label>
                                 </div>
                               </div>
                             </td>
                             <td>
-                              <a href="transaction-view.html" className="fw-bold">
-                                #321456
+                              <a href="#" className="fw-bold">
+                                #327654
                               </a>
                             </td>
                             <td>
                               <a href="javascript:void(0)" className="hstack gap-3">
                                 <div className="avatar-image avatar-md">
                                   <img
-                                    src="assets/images/avatar/1.png"
+                                    src="assets/images/avatar/17.png"
                                     alt="User Avatar"
                                     className="img-fluid"
                                   />
                                 </div>
                                 <div>
-                                  <span className="text-truncate-1-line">Alexandra Della</span>
-                                  <small className="fs-12 fw-normal text-muted">
-                                    alex.della@outlook.com
-                                  </small>
+                                  <span className="text-truncate-1-line">Aisha Bello</span>
+                                  <small className="fs-12 fw-normal text-muted">aisha.bello@mail.com</small>
                                 </div>
                               </a>
                             </td>
-                            <td className="fw-bold text-dark">₦2,400</td>
-                            <td>2023-04-25, 03:42PM</td>
+                            <td className="fw-bold text-dark">₦5,500</td>
+                            <td>2024-05-04, 08:45AM</td>
                             <td>
-                              <a href="javascript:void(0);">#SDEG4589SE1E</a>
+                              <a href="javascript:void(0);">#WERT9876KL2</a>
                             </td>
                             <td>
-                              <div className="badge bg-soft-success text-success">Completed</div>
+                              <div className="badge bg-soft-danger text-danger">Cancelled</div>
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="transaction-view.html" className="avatar-text avatar-md">
+                                <a href="#" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -1085,7 +1064,6 @@ function Wallet() {
                                     <i className="feather feather-more-horizontal"></i>
                                   </a>
                                   <ul className="dropdown-menu">
-
                                     <li>
                                       <a className="dropdown-item printBTN" href="javascript:void(0)">
                                         <i className="feather feather-printer me-3"></i>
@@ -1106,12 +1084,12 @@ function Wallet() {
                                       </a>
                                     </li>
                                     <li className="dropdown-divider"></li>
-
                                   </ul>
                                 </div>
                               </div>
                             </td>
                           </tr>
+
 
                         </tbody>
 

@@ -119,7 +119,7 @@ function Header() {
                     </a>
                   </div>
                   <div className="notifications-item">
-                    <img src="assets/images/avatar/2.png" alt="" className="rounded me-3 border" />
+                    <img src="assets/images/avatar/22.png" alt="" className="rounded me-3 border" />
                     <div className="notifications-desc">
                       <a href="javascript:void(0);" className="font-body text-truncate-2-line">
                         <span className="fw-semibold text-dark">New Order Received</span> A new order has been placed in your restaurant.
@@ -141,7 +141,7 @@ function Header() {
                     </div>
                   </div>
                   <div className="notifications-item">
-                    <img src="assets/images/avatar/3.png" alt="" className="rounded me-3 border" />
+                    <img src="assets/images/avatar/21.png" alt="" className="rounded me-3 border" />
                     <div className="notifications-desc">
                       <a href="javascript:void(0);" className="font-body text-truncate-2-line">
                         <span className="fw-semibold text-dark">Inventory Low</span> Your stock for the ingredient "Tomatoes" is running low.
@@ -163,7 +163,7 @@ function Header() {
                     </div>
                   </div>
                   <div className="notifications-item">
-                    <img src="assets/images/avatar/4.png" alt="" className="rounded me-3 border" />
+                    <img src="assets/images/avatar/23.png" alt="" className="rounded me-3 border" />
                     <div className="notifications-desc">
                       <a href="javascript:void(0);" className="font-body text-truncate-2-line">
                         <span className="fw-semibold text-dark">Staff Shift Update</span> Your staff member "John Doe" has updated their shift.
