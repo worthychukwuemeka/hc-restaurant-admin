@@ -649,9 +649,12 @@ const Menu = () => {
 
 
           </div>
+
+
+          <Footer />
         </main>
 
-        <Footer />
+       
 
         {/* Add new menu item */}
         <div className="offcanvas offcanvas-end" tabIndex={-1} id="addNewItem">
