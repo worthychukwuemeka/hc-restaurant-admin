@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import Sidebar from './Sidebar'
 import Header from './Header'
+import Footer from './Footer';
 
 const Menu = () => {
   const [currentDate, setCurrentDate] = useState('');
@@ -649,6 +650,8 @@ const Menu = () => {
 
           </div>
         </main>
+
+        <Footer />
 
         {/* Add new menu item */}
         <div className="offcanvas offcanvas-end" tabIndex={-1} id="addNewItem">

@@ -3,6 +3,7 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 import Header from './Header'
+import Footer from './Footer'
 
 function Wallet() {
   return (
@@ -290,7 +291,7 @@ function Wallet() {
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="#" className="avatar-text avatar-md">
+                                <a href="/receipt" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -377,7 +378,7 @@ function Wallet() {
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="#" className="avatar-text avatar-md">
+                                <a href="/receipt" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -462,7 +463,7 @@ function Wallet() {
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="#" className="avatar-text avatar-md">
+                                <a href="/receipt" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -547,7 +548,7 @@ function Wallet() {
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="transaction-view.html" className="avatar-text avatar-md">
+                                <a href="/receiptransaction-view.html" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -633,7 +634,7 @@ function Wallet() {
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="#" className="avatar-text avatar-md">
+                                <a href="/receipt" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -718,7 +719,7 @@ function Wallet() {
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="#" className="avatar-text avatar-md">
+                                <a href="/receipt" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -802,7 +803,7 @@ function Wallet() {
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="#" className="avatar-text avatar-md">
+                                <a href="/receipt" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -885,7 +886,7 @@ function Wallet() {
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="#" className="avatar-text avatar-md">
+                                <a href="/receipt" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -968,7 +969,7 @@ function Wallet() {
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="#" className="avatar-text avatar-md">
+                                <a href="/receipt" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -1051,7 +1052,7 @@ function Wallet() {
                             </td>
                             <td>
                               <div className="hstack gap-2 justify-content-end">
-                                <a href="#" className="avatar-text avatar-md">
+                                <a href="/receipt" className="avatar-text avatar-md">
                                   <i className="feather feather-eye"></i>
                                 </a>
                                 <div className="dropdown">
@@ -1102,6 +1103,8 @@ function Wallet() {
             </div>
           </div>
         </div>
+
+        <Footer />
       </main>
     </div>
   )
