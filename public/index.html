@@ -28,12 +28,14 @@
   <!--! END: Vendors CSS-->
   <!--! BEGIN: Custom CSS-->
   <link rel="stylesheet" type="text/css" href="./assets/css/theme.min.css" />
-  <link rel="stylesheet" type="text/css" href="./assets/vendors/css/dataTables.bs5.min.css">
-  <link rel="stylesheet" type="text/css" href="./assets/vendors/css/tagify.min.css">
-  <link rel="stylesheet" type="text/css" href="./assets/vendors/css/tagify-data.min.css">
-  <link rel="stylesheet" type="text/css" href="./assets/vendors/css/quill.min.css">
-  <link rel="stylesheet" type="text/css" href="./assets/vendors/css/select2.min.css">
-  <link rel="stylesheet" type="text/css" href="./assets/vendors/css/select2-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/vendors/css/dataTables.bs5.min.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/vendors/css/tagify.min.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/vendors/css/tagify-data.min.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/vendors/css/quill.min.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/vendors/css/select2.min.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/vendors/css/select2-theme.min.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/vendors/css/datepicker.min.css" />
+
   <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -78,7 +80,7 @@
   <script src="assets/vendors/js/tui-code-snippet.min.js"></script>
   <script src="assets/vendors/js/tui-time-picker.min.js"></script>
   <script src="assets/vendors/js/tui-date-picker.min.js"></script>
-  
+
 
   <!-- Apps Init -->
   <script src="./assets/js/dashboard-init.min.js"></script>
@@ -92,7 +94,6 @@
   <script src="./assets/vendors/js/select2.min.js"></script>
   <script src="./assets/vendors/js/select2-active.min.js"></script>
 
-
   <!-- Additional Apps Init -->
   <script src="./assets/js/common-init.min.js"></script>
   <script src="./assets/js/proposal-view-init.min.js"></script>
@@ -100,11 +101,81 @@
   <script src="./assets/js/payment-init.min.js"></script>
   <script src="./assets/js/apps-calendar-init.min.js"></script>
   <script src="./assets/vendors/js/jquery.time-to.min.js"></script>
+  <script src="./assets/js/apps-tasks-init.min.js"></script>
+  <script src="./assets/vendors/js/select2.min.js"></script>
+  <script src="./assets/vendors/js/select2-active.min.js"></script>
+  <script src="./assets/vendors/js/datepicker.min.js"></script>
+  <script src="./assets/vendors/js/quill.min.js"></script>
+  <!--! END: Vendors JS !-->
 
   <!-- Theme Customizer -->
   <script src="./assets/js/theme-customizer-init.min.js"></script>
 
+
   <!--! END: Theme Customizer !-->
+  <script>
+    // Create a "close" button and append it to each list item
+    var myNodelist = document.querySelectorAll("#checklist> li");
+    var i;
+    for (i = 0; i < myNodelist.length; i++) {
+      var span = document.createElement("SPAN");
+      var txt = document.createTextNode("\u00D7");
+      span.className = "close";
+      span.appendChild(txt);
+      myNodelist[i].appendChild(span);
+    }
+
+    // Click on a close button to hide the current list item
+    var close = document.getElementsByClassName("close");
+    var i;
+    for (i = 0; i < close.length; i++) {
+      close[i].onclick = function () {
+        var div = this.parentElement;
+        div.style.display = "none";
+      };
+    }
+
+    // Add a "checked" symbol when clicking on a list item
+    var list = document.getElementById("checklist");
+    list.addEventListener(
+      "click",
+      function (ev) {
+        if (ev.target.tagName === "LI") {
+          ev.target.classList.toggle("checked");
+        }
+      },
+      false
+    );
+
+    // Create a new list item when clicking on the "Add" button
+    function newElement() {
+      var li = document.createElement("li");
+      var inputValue = document.getElementById("checklistInput").value;
+      var t = document.createTextNode(inputValue);
+      li.appendChild(t);
+      if (inputValue === "") {
+        alert("You must write something!");
+      } else {
+        document.getElementById("checklist").appendChild(li);
+      }
+      document.getElementById("checklistInput").value = "";
+
+      var span = document.createElement("SPAN");
+      var txt = document.createTextNode("\u00D7");
+      span.className = "close";
+      span.appendChild(txt);
+      li.appendChild(span);
+
+      for (i = 0; i < close.length; i++) {
+        close[i].onclick = function () {
+          var div = this.parentElement;
+          div.style.display = "none";
+        };
+      }
+    }
+  </script>
+
+  <!--! Checklist JS !-->
   <script>
     // Create a "close" button and append it to each list item
     var myNodelist = document.querySelectorAll("#checklist> li");
