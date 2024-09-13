@@ -18,7 +18,7 @@ import ResetPassword from './pages/ResetPassword';
 import VerifyOTP from './pages/VerifyOTP';
 import Login from './pages/Login';
 import Receipt from './pages/Receipt';
-import ViewBooking from './pages/ViewBooking';
+import BookingDetails from './pages/BookingDetails';
 
 const App = () => {
   return (
@@ -41,7 +41,7 @@ const App = () => {
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/verify-otp" element={<VerifyOTP />} />
         <Route path="/receipt" element={<Receipt />} />
-        <Route path="/view-booking" element={<ViewBooking />} />
+        <Route path="/booking-details" element={<BookingDetails />} />
       </Routes>
     </Router>
   );

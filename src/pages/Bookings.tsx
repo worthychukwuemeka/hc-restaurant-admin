@@ -107,7 +107,7 @@ function Bookings() {
                           <small>Number of Guests: <span className="badge bg-soft-success text-success" style={{ fontWeight: 400 }}>25</span></small>
                           <span className="avatar-text avatar-sm"><i className="feather-star favourite-note"></i></span>
                           <div className="ms-auto">
-                            <span className="avatar-text avatar-sm"><i className="feather-eye"></i></span>
+                            <span className="avatar-text avatar-sm"><a href="/booking-details"><i className="feather-eye"></i></a></span>
                           </div>
                         </div>
                       </div>
@@ -131,7 +131,7 @@ function Bookings() {
                           <small>Number of Guests: <span className="badge bg-soft-warning text-warning" style={{ fontWeight: 400 }}>25</span></small>
                           <span className="avatar-text avatar-sm"><i className="feather-star favourite-note"></i></span>
                           <div className="ms-auto">
-                            <span className="avatar-text avatar-sm"><i className="feather-eye"></i></span>
+                            <span className="avatar-text avatar-sm"><a href="/booking-details"><i className="feather-eye"></i></a></span>
                           </div>
                         </div>
                       </div>
@@ -153,7 +153,7 @@ function Bookings() {
                           <small>Number of Guests: <span className="badge bg-soft-danger text-danger" style={{ fontWeight: 400 }}>30</span></small>
                           <span className="avatar-text avatar-sm"><i className="feather-star favourite-note"></i></span>
                           <div className="ms-auto">
-                            <span className="avatar-text avatar-sm"><i className="feather-eye"></i></span>
+                            <span className="avatar-text avatar-sm"><a href="/booking-details"><i className="feather-eye"></i></a></span>
                           </div>
                         </div>
                       </div>
@@ -180,7 +180,7 @@ function Bookings() {
                           </span>
                           <div className="ms-auto">
                             <span className="avatar-text avatar-sm">
-                              <i className="feather-eye"></i>
+                              <a href="/booking-details"><i className="feather-eye"></i></a>
                             </span>
                           </div>
                         </div>
@@ -208,7 +208,7 @@ function Bookings() {
                           </span>
                           <div className="ms-auto">
                             <span className="avatar-text avatar-sm">
-                              <i className="feather-eye"></i>
+                              <a href="/booking-details"><i className="feather-eye"></i></a>
                             </span>
                           </div>
                         </div>
@@ -236,7 +236,7 @@ function Bookings() {
                           </span>
                           <div className="ms-auto">
                             <span className="avatar-text avatar-sm">
-                              <i className="feather-eye"></i>
+                              <a href="/booking-details"><i className="feather-eye"></i></a>
                             </span>
                           </div>
                         </div>
